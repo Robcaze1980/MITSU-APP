@@ -1,7 +1,41 @@
 {
-  "name": "node-starter",
-  "private": true,
+  "name": "salescommissionportal-1",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@auth/supabase-adapter": "^1.5.3",
+    "@prisma/client": "^5.20.0",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/auth-helpers-react": "^0.5.0",
+    "@supabase/supabase-js": "^2.45.4",
+    "chart.js": "^4.4.4",
+    "next": "^14.2.13",
+    "next-auth": "^4.24.8",
+    "prisma": "^5.20.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.10",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "5.6.2"
   }
 }
